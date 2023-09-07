@@ -19,3 +19,5 @@ ai-plugin.jsonとopenapi.yamlのPLUGIN_HOSTNAMEをGitHub CodespacesのPublic URL
 ## 実行した感じ
 
 ![](https://i.gyazo.com/3e6191d84675b3ab7931971bac995c1a.png)
+
+![](https://i.gyazo.com/48848f66a54edb5df570d3e0cd215fa4.png)
