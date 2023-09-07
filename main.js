@@ -1,18 +1,17 @@
 const express = require('express');
 const cors = require('cors');
-const bodyParser = require('body-parser');
 const fs = require('fs');
 
 const app = express();
 
 // Middleware
 app.use(cors({ origin: 'https://chat.openai.com' }));
-// app.use(cors({ origin: 'localhost' }));
-app.use(bodyParser.json());
+app.use(express.json()); 
 
 const TODOS = {};
 
 app.post('/todos/:username', (req, res) => {
+    console.log(`add todo..!!`)
     const username = req.params.username;
     const todo = req.body.todo;
 
